@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="530" viewBox="0 0 880 530" role="img" aria-label="Temporary conceptual illustration of quantum computing architecture">
+ <defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#081c38"/><stop offset=".55" stop-color="#16466a"/><stop offset="1" stop-color="#137493"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#69c9ff" stop-opacity=".26"/><stop offset="1" stop-color="#69c9ff" stop-opacity="0"/></radialGradient>
+ </defs>
+ <rect width="880" height="530" fill="url(#bg)"/>
+ <circle cx="460" cy="230" r="340" fill="url(#glow)"/>
+ <g stroke="#d0eeff" stroke-opacity=".12" stroke-width="1"><path d="M0 75h880M0 165h880M0 255h880M0 345h880M0 435h880M100 0v530M205 0v530M310 0v530M415 0v530M520 0v530M625 0v530M730 0v530M835 0v530"/></g>
+ <g stroke="#c6efff" stroke-width="4" stroke-linecap="round" fill="none" opacity=".8">
+  <path d="M155 155H725M155 250H725M155 345H725"/>
+ </g>
+ <g font-family="Arial,Helvetica,sans-serif" font-size="27" fill="#c9f3ff" text-anchor="middle">
+  <text x="135" y="164">q0</text><text x="135" y="259">q1</text><text x="135" y="354">q2</text>
+ </g>
+ <rect x="268" y="117" width="78" height="76" rx="10" fill="#0d3758" stroke="#83daf8" stroke-width="4"/>
+ <text x="307" y="165" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" text-anchor="middle" fill="#d5f7ff">H</text>
+ <rect x="415" y="213" width="78" height="75" rx="10" fill="#0d3758" stroke="#83daf8" stroke-width="4"/>
+ <text x="454" y="261" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#d5f7ff">X</text>
+ <circle cx="585" cy="155" r="15" fill="#7bdcff"/>
+ <path d="M585 170V345" stroke="#7bdcff" stroke-width="4"/>
+ <circle cx="585" cy="345" r="32" fill="#0b395d" stroke="#7bdcff" stroke-width="4"/>
+ <path d="M585 315v60m-30-30h60" stroke="#cceeff" stroke-width="4"/>
+ <g stroke="#aadcf4" stroke-width="2.5" stroke-dasharray="8 8" opacity=".65"><path d="M704 146V354"/></g>
+ <text x="35" y="495" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="600" letter-spacing="3" fill="#e9faff" fill-opacity=".65">COURSE IMAGE / PLACEHOLDER</text>
+</svg>

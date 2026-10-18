@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 530" role="img" aria-label="Illustrative graphic for Low-level embedded engineering">
+ <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d2850"/><stop offset="1" stop-color="#197a99"/></linearGradient><radialGradient id="glow"><stop stop-color="#7bd7f4" stop-opacity=".32"/><stop offset="1" stop-color="#7bd7f4" stop-opacity="0"/></radialGradient></defs>
+ <rect width="880" height="530" fill="url(#bg)"/><circle cx="440" cy="215" r="340" fill="url(#glow)"/>
+ <g fill="none" stroke="#bedcf2" stroke-opacity=".12" stroke-width="1"><path d="M0 105h880M0 215h880M0 325h880M0 435h880M110 0v530M220 0v530M330 0v530M440 0v530M550 0v530M660 0v530M770 0v530"/></g>
+ <g fill="none" stroke="#a7e7fd" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><rect x="243" y="115" width="392" height="295" rx="20" stroke-width="4"/><path d="M294 210l49 46-49 46M380 310h110"/><path d="M540 178h40m-40 38h40m-40 38h40m-40 38h40" stroke-opacity=".7"/></g><circle cx="560" cy="334" r="19" stroke="#75d8f4" stroke-width="6" fill="none"/><path d="M553 334h14" stroke="#75d8f4" stroke-width="5"/>
+ <text x="35" y="495" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="600" letter-spacing="3" fill="#e9faff" fill-opacity=".6">COURSE IMAGE · PLACEHOLDER</text>
+</svg>

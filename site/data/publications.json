@@ -1,0 +1,198 @@
+{
+  "source": "dblp",
+  "author_pid": "134/1019",
+  "last_synced_utc": null,
+  "bootstrap_only": true,
+  "publications": [
+    {
+      "key": "journals/fgcs/EmmanueleBB26",
+      "title": "Exploiting Modular Redundancy for approximating Random Forest classifiers",
+      "authors": [
+        "Antonio Emmanuele",
+        "Mario Barbareschi",
+        "Alberto Bosio"
+      ],
+      "year": 2026,
+      "type": "Journal",
+      "venue": "Future Generation Computer Systems 179, 108330",
+      "dblp_url": "https://dblp.org/rec/journals/fgcs/EmmanueleBB26",
+      "doi_url": null,
+      "pdf_url": null
+    },
+    {
+      "key": "journals/fgcs/BarbareschiBBE26",
+      "title": "Reliability analysis of hardware accelerators for decision tree-based classifier systems",
+      "authors": [
+        "Mario Barbareschi",
+        "Salvatore Barone",
+        "Alberto Bosio",
+        "Antonio Emmanuele"
+      ],
+      "year": 2026,
+      "type": "Journal",
+      "venue": "Future Generation Computer Systems 180, 108378",
+      "dblp_url": "https://dblp.org/rec/journals/fgcs/BarbareschiBBE26",
+      "doi_url": null,
+      "pdf_url": null
+    },
+    {
+      "key": "journals/iotj/AbateBE26",
+      "title": "On the Design of Decision Tree Visiting Kernels at the Edge",
+      "authors": [
+        "Lorenzo Abate",
+        "Mario Barbareschi",
+        "Antonio Emmanuele"
+      ],
+      "year": 2026,
+      "type": "Journal",
+      "venue": "IEEE Internet of Things Journal 13(19), 45247-45261",
+      "dblp_url": "https://dblp.org/rec/journals/iotj/AbateBE26",
+      "doi_url": null,
+      "pdf_url": null
+    },
+    {
+      "key": "journals/tcad/LombardiBCVN26",
+      "title": "On the Evaluation of FPGA-Based Physical Unclonable Functions",
+      "authors": [
+        "Daniele Lombardi",
+        "Mario Barbareschi",
+        "Valentina Casola",
+        "Elena-Ioana Vatajelu",
+        "Giorgio Di Natale"
+      ],
+      "year": 2026,
+      "type": "Journal",
+      "venue": "IEEE TCAD 45(4), 2055-2068",
+      "dblp_url": "https://dblp.org/rec/journals/tcad/LombardiBCVN26",
+      "doi_url": null,
+      "pdf_url": null
+    },
+    {
+      "key": "journals/tetc/BarbareschiCE26",
+      "title": "Blockchain-Enhanced PUF Authentication for IoT Devices",
+      "authors": [
+        "Mario Barbareschi",
+        "Franco Cirillo",
+        "Christian Esposito"
+      ],
+      "year": 2026,
+      "type": "Journal",
+      "venue": "IEEE Transactions on Emerging Topics in Computing 14(2), 704-717",
+      "dblp_url": "https://dblp.org/rec/journals/tetc/BarbareschiCE26",
+      "doi_url": null,
+      "pdf_url": null
+    },
+    {
+      "key": "conf/cf/BarbareschiEMM26",
+      "title": "A PUF-based Secure Aggregation Protocol for Deep Edge Devices",
+      "authors": [
+        "Mario Barbareschi",
+        "Antonio Emmanuele",
+        "Alessia Manna",
+        "Nicola Mazzocca"
+      ],
+      "year": 2026,
+      "type": "Conference",
+      "venue": "CF (Companion) 2026, 49-56",
+      "dblp_url": "https://dblp.org/rec/conf/cf/BarbareschiEMM26",
+      "doi_url": null,
+      "pdf_url": null
+    },
+    {
+      "key": "conf/ets/EmmanueleBB26",
+      "title": "Test Sample Ranking for Fault Detection in Decision Tree-based Inference Model",
+      "authors": [
+        "Antonio Emmanuele",
+        "Mario Barbareschi",
+        "Alberto Bosio"
+      ],
+      "year": 2026,
+      "type": "Conference",
+      "venue": "ETS 2026, 1-6",
+      "dblp_url": "https://dblp.org/rec/conf/ets/EmmanueleBB26",
+      "doi_url": null,
+      "pdf_url": null
+    },
+    {
+      "key": "journals/eaai/BarbareschiEMT25",
+      "title": "Designing on-board explainable passenger flow prediction",
+      "authors": [
+        "Mario Barbareschi",
+        "Antonio Emmanuele",
+        "Nicola Mazzocca",
+        "Franca Rocco di Torrepadula"
+      ],
+      "year": 2025,
+      "type": "Journal",
+      "venue": "Engineering Applications of Artificial Intelligence 139, 109648",
+      "dblp_url": "https://dblp.org/rec/journals/eaai/BarbareschiEMT25",
+      "doi_url": null,
+      "pdf_url": null
+    },
+    {
+      "key": "journals/jsa/BarbareschiCEM25",
+      "title": "Engineering SRAM-PUF on Arduino microcontroller",
+      "authors": [
+        "Mario Barbareschi",
+        "Franco Cirillo",
+        "Christian Esposito",
+        "Nicola Mazzocca"
+      ],
+      "year": 2025,
+      "type": "Journal",
+      "venue": "Journal of Systems Architecture 167, 103466",
+      "dblp_url": "https://dblp.org/rec/journals/jsa/BarbareschiCEM25",
+      "doi_url": null,
+      "pdf_url": null
+    },
+    {
+      "key": "conf/IEEEares/BarbareschiEL25",
+      "title": "A Decentralized PUF-Based Scheme for Remote Attestation",
+      "authors": [
+        "Mario Barbareschi",
+        "Antonio Emmanuele",
+        "Daniele Lombardi"
+      ],
+      "year": 2025,
+      "type": "Conference",
+      "venue": "ARES 2025, 167-180",
+      "dblp_url": "https://dblp.org/rec/conf/IEEEares/BarbareschiEL25",
+      "doi_url": null,
+      "pdf_url": null
+    },
+    {
+      "key": "conf/aina/BarbareschiCEL25",
+      "title": "PUF-Based Secure Key Management for Continuum Computing",
+      "authors": [
+        "Mario Barbareschi",
+        "Valentina Casola",
+        "Antonio Emmanuele",
+        "Daniele Lombardi"
+      ],
+      "year": 2025,
+      "type": "Conference",
+      "venue": "AINA 2025, 390-399",
+      "dblp_url": "https://dblp.org/rec/conf/aina/BarbareschiCEL25",
+      "doi_url": null,
+      "pdf_url": null
+    },
+    {
+      "key": "conf/ddecs/BarbareschiBBDPT25",
+      "title": "Automatic generation of input-aware approximate arithmetic circuits",
+      "authors": [
+        "Mario Barbareschi",
+        "Salvatore Barone",
+        "Alberto Bosio",
+        "Bastien Deveautour",
+        "Ali Piri",
+        "Marcello Traiola"
+      ],
+      "year": 2025,
+      "type": "Conference",
+      "venue": "DDECS 2025, 139-144",
+      "dblp_url": "https://dblp.org/rec/conf/ddecs/BarbareschiBBDPT25",
+      "doi_url": null,
+      "pdf_url": null
+    }
+  ]
+}
