@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Update the local bibliography from DBLP with safe XML -> JSON fallback.
+"""Update the local bibliography from DBLP with official-mirror fallback.
 
 No third-party dependencies. The current JSON file is never replaced unless a
 credible complete bibliography is downloaded and parsed successfully.
@@ -19,9 +19,14 @@ from xml.etree import ElementTree as ET
 
 PID = '134/1019'
 XML_URL = f'https://dblp.org/pid/{PID}.xml'
-API_URL = 'https://dblp.org/search/publ/api?' + urlencode({
+API_PATH = '/search/publ/api?' + urlencode({
     'q': 'author:Mario_Barbareschi:', 'h': 1000, 'format': 'json', 'c': 0
 })
+API_URL = 'https://dblp.org' + API_PATH
+# All three endpoints are operated by the dblp team (not third-party proxies).
+# They are on separate infrastructures; a failure of the main site does not
+# necessarily affect the other official mirrors.
+OFFICIAL_HOSTS = ('dblp.org', 'dblp.dagstuhl.de', 'dblp.uni-trier.de')
 DEFAULT_OUT = Path(__file__).resolve().parents[1] / 'site/data/publications.json'
 USER_AGENT = 'Mozilla/5.0 (compatible; AcademicWebsiteBibliography/1.1; +https://dblp.org/pid/134/1019)'
 
@@ -191,47 +196,80 @@ def parse_search_json(json_data):
     return sorted(result, key=lambda p: (-p['year'], p['key']))
 
 
+def _html_excerpt(payload):
+    """Small, safe diagnostic for a web server's HTML error response."""
+    doc = payload[:8192].decode('utf-8', errors='replace')
+    match = re.search(r'<title\b[^>]*>(.*?)</title>', doc, flags=re.I | re.S)
+    if match:
+        return 'HTML title: ' + re.sub(r'\s+', ' ', unescape(re.sub(r'<[^>]+>', ' ', match.group(1)))).strip()[:160]
+    # Error responses without a title can still identify a block or redirect.
+    visible = re.sub(r'(?is)<(script|style)\b.*?</\1\s*>', ' ', doc)
+    visible = re.sub(r'<[^>]+>', ' ', visible)
+    return 'HTML excerpt: ' + ' '.join(unescape(visible).split())[:160]
+
+
 def download(url, *, retries=2, timeout=30):
-    """Fetch a DBLP response and surface useful information on bad responses."""
+    """Fetch bibliographic data, identifying unexpected HTML responses."""
     last_error = None
+    kind = 'json' if '/search/publ/api' in url else 'xml'
     for attempt in range(retries):
         try:
             request = Request(url, headers={
                 'User-Agent': USER_AGENT,
-                'Accept': 'application/xml,application/json,text/xml;q=0.9,*/*;q=0.5',
+                'Accept': ('application/json, */*;q=0.1' if kind == 'json' else
+                           'application/xml, text/xml;q=0.9, */*;q=0.1'),
             })
             with urlopen(request, timeout=timeout) as response:
                 data = response.read()
                 mime = response.headers.get('Content-Type', 'unknown')
+                final_url = response.geturl()
+                status = response.status
             if not data:
-                raise ValueError(f'Empty response from {url} (Content-Type: {mime})')
-            if data.lstrip().lower().startswith((b'<!doctype html', b'<html')):
-                raise ValueError(f'HTML instead of DBLP data from {url} (Content-Type: {mime})')
+                raise ValueError(f'Empty response (HTTP {status}; Content-Type: {mime}; final URL: {final_url})')
+            if ('text/html' in mime.lower() or
+                    data.lstrip().lower().startswith((b'<!doctype html', b'<html'))):
+                raise ValueError(f'HTML instead of DBLP data (HTTP {status}; '
+                                 f'Content-Type: {mime}; final URL: {final_url}; '
+                                 f'{_html_excerpt(data)})')
             return data
-        except (HTTPError, URLError, TimeoutError, OSError, ValueError) as exc:
-            last_error = exc
-            if attempt + 1 < retries:
-                time.sleep(2 ** attempt)
+        except HTTPError as exc:
+            # An HTTP error body may explain why a runner is being challenged.
+            try:
+                payload = exc.read(8192)
+                diagnostic = _html_excerpt(payload) if payload else 'no response body'
+            except OSError:
+                diagnostic = 'unable to read response body'
+            last_error = f'HTTP {exc.code}: {diagnostic}'
+        except (URLError, TimeoutError, OSError, ValueError) as exc:
+            last_error = str(exc)
+        if attempt + 1 < retries:
+            time.sleep(1.5 * (attempt + 1))
     raise RuntimeError(f'{url}: {last_error}')
 
 
 def get_bibliography(min_records):
     errors = []
-    sources = (
-        ('DBLP person XML', XML_URL, parse_person_xml),
-        ('DBLP search JSON', API_URL, parse_search_json),
-    )
+    # Keep the original primary-XML then primary-JSON order, but also probe
+    # both other *official* hosts. No unofficial scraping or proxies.
+    sources = []
+    for host in OFFICIAL_HOSTS:
+        sources.append((f'DBLP person XML ({host})',
+                        f'https://{host}/pid/{PID}.xml', parse_person_xml))
+        sources.append((f'DBLP search JSON ({host})',
+                        f'https://{host}' + API_PATH, parse_search_json))
     for source, url, parser in sources:
         try:
             papers = parser(download(url))
             if len(papers) < min_records:
                 raise ValueError(f'{len(papers)} valid records (minimum {min_records})')
-            print(f'Source: {source}; parsed {len(papers)} records.')
+            print(f'Source: {source}; parsed {len(papers)} records.', flush=True)
             return papers
         except (RuntimeError, ValueError, ET.ParseError, UnicodeError) as exc:
             errors.append(f'{source}: {exc}')
-            print(f'Warning: {source} unavailable or invalid: {exc}', file=sys.stderr)
-    raise RuntimeError('Both DBLP sources failed. ' + '; '.join(errors))
+            print(f'Warning: {source} unavailable or invalid: {exc}',
+                  file=sys.stderr, flush=True)
+    raise RuntimeError('All official DBLP servers returned invalid/unavailable data. '
+                       'Existing bibliography was not modified. ' + '; '.join(errors))
 
 
 def main():
