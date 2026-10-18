@@ -1,0 +1,62 @@
+name: Update bibliography and deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # Monday 04:17 UTC. Scheduled Actions are best-effort.
+    - cron: '17 4 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: academic-site-publish
+  cancel-in-progress: false
+
+jobs:
+  website:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Validate DBLP parser
+        run: python3 -m unittest discover -s tests -v
+      - name: Refresh publications on schedule or manual run
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: python3 scripts/sync_dblp.py
+      - name: Commit refreshed bibliography if changed
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          if ! git diff --quiet -- site/data/publications.json; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add site/data/publications.json
+            git commit -m 'chore: synchronize publications from DBLP'
+            git push origin HEAD:main
+          else
+            echo 'No bibliography changes.'
+          fi
+      # OFF by default. Enable only after FTP credentials and test directory are set.
+      # DEPLOY_DRY_RUN should stay true until you have inspected the action logs.
+      - name: Deploy public site via FTPS (opt-in)
+        if: vars.DEPLOY_ENABLED == 'true'
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_SERVER_DIR }}
+          local-dir: ./site/
+          protocol: ${{ vars.FTP_PROTOCOL || 'ftps' }}
+          port: ${{ vars.FTP_PORT || '21' }}
+          security: strict
+          dry-run: ${{ vars.DEPLOY_DRY_RUN != 'false' }}
+          dangerous-clean-slate: false
