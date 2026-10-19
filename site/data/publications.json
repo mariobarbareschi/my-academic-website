@@ -1,9 +1,97 @@
 {
-  "source": "dblp",
+  "source": "openaire+cached-dblp",
   "author_pid": "134/1019",
-  "last_synced_utc": null,
-  "bootstrap_only": true,
+  "last_synced_utc": "2026-10-19T06:59:51+00:00",
+  "bootstrap_only": false,
   "publications": [
+    {
+      "key": "openaire/5f993386451d2b32af52",
+      "title": "A dual-stage approach for explainable time series forecasting in on-field cyber-physical systems",
+      "authors": [
+        "Antonio Emmanuele",
+        "Franca Rocco di Torrepadula",
+        "Mario Barbareschi",
+        "Nicola Mazzocca"
+      ],
+      "year": 2026,
+      "type": "Other",
+      "venue": "Internet of Things",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1016/j.iot.2026.101984",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_________::013526aba5780e160ba95d8f15dc4291",
+      "openaire_id": "doi_________::013526aba5780e160ba95d8f15dc4291"
+    },
+    {
+      "key": "conf/cf/BarbareschiEMM26",
+      "title": "A PUF-based Secure Aggregation Protocol for Deep Edge Devices",
+      "authors": [
+        "Mario Barbareschi",
+        "Antonio Emmanuele",
+        "Alessia Manna",
+        "Nicola Mazzocca"
+      ],
+      "year": 2026,
+      "type": "Conference",
+      "venue": "CF (Companion) 2026, 49-56",
+      "dblp_url": "https://dblp.org/rec/conf/cf/BarbareschiEMM26",
+      "doi_url": "https://doi.org/10.1145/3801488.3807897",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_________::0d73b9bec750d53ca95821d2ff49554b",
+      "openaire_id": "doi_________::0d73b9bec750d53ca95821d2ff49554b"
+    },
+    {
+      "key": "journals/tetc/BarbareschiCE26",
+      "title": "Blockchain-Enhanced PUF Authentication for IoT Devices",
+      "authors": [
+        "Mario Barbareschi",
+        "Franco Cirillo",
+        "Christian Esposito"
+      ],
+      "year": 2026,
+      "type": "Journal",
+      "venue": "IEEE Transactions on Emerging Topics in Computing 14(2), 704-717",
+      "dblp_url": "https://dblp.org/rec/journals/tetc/BarbareschiCE26",
+      "doi_url": "https://doi.org/10.1109/tetc.2026.3696088",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::7e521f8a0d70699efca1106dbd5cfa30",
+      "openaire_id": "doi_dedup___::7e521f8a0d70699efca1106dbd5cfa30"
+    },
+    {
+      "key": "openaire/a72a53af6d9e545335b3",
+      "title": "Comparative Analysis of Hardware Accelerator Architectures for Performance and Energy Efficient Deep Neural Network Execution",
+      "authors": [
+        "Salsabil Saoudi",
+        "Mario Barbareschi",
+        "Alberto Bosio"
+      ],
+      "year": 2026,
+      "type": "Other",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/ddecs69233.2026.11520980",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_________::5f3d151c35af35b15f1444112c3bd5e7",
+      "openaire_id": "doi_________::5f3d151c35af35b15f1444112c3bd5e7"
+    },
+    {
+      "key": "openaire/4bfcd1d716cdd0a06bd1",
+      "title": "Dynamic Model for Preliminary Hazard Analysis in Autonomous Railway Application",
+      "authors": [
+        "Daniela De Venuto",
+        "Mario Barbareschi",
+        "Diana Serra",
+        "Vincenzo Scarola"
+      ],
+      "year": 2026,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-032-17174-0_45",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::9c207f33e96ef389747e00049c6c81fd",
+      "openaire_id": "doi_dedup___::9c207f33e96ef389747e00049c6c81fd"
+    },
     {
       "key": "journals/fgcs/EmmanueleBB26",
       "title": "Exploiting Modular Redundancy for approximating Random Forest classifiers",
@@ -16,24 +104,10 @@
       "type": "Journal",
       "venue": "Future Generation Computer Systems 179, 108330",
       "dblp_url": "https://dblp.org/rec/journals/fgcs/EmmanueleBB26",
-      "doi_url": null,
-      "pdf_url": null
-    },
-    {
-      "key": "journals/fgcs/BarbareschiBBE26",
-      "title": "Reliability analysis of hardware accelerators for decision tree-based classifier systems",
-      "authors": [
-        "Mario Barbareschi",
-        "Salvatore Barone",
-        "Alberto Bosio",
-        "Antonio Emmanuele"
-      ],
-      "year": 2026,
-      "type": "Journal",
-      "venue": "Future Generation Computer Systems 180, 108378",
-      "dblp_url": "https://dblp.org/rec/journals/fgcs/BarbareschiBBE26",
-      "doi_url": null,
-      "pdf_url": null
+      "doi_url": "https://doi.org/10.1016/j.future.2025.108330",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::ab1da86255681c1eda286eecd24dfdb9",
+      "openaire_id": "doi_dedup___::ab1da86255681c1eda286eecd24dfdb9"
     },
     {
       "key": "journals/iotj/AbateBE26",
@@ -47,8 +121,10 @@
       "type": "Journal",
       "venue": "IEEE Internet of Things Journal 13(19), 45247-45261",
       "dblp_url": "https://dblp.org/rec/journals/iotj/AbateBE26",
-      "doi_url": null,
-      "pdf_url": null
+      "doi_url": "https://doi.org/10.1109/jiot.2026.3718321",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_________::b42a8c7fd466ae06a33809e77c07abb0",
+      "openaire_id": "doi_________::b42a8c7fd466ae06a33809e77c07abb0"
     },
     {
       "key": "journals/tcad/LombardiBCVN26",
@@ -64,39 +140,28 @@
       "type": "Journal",
       "venue": "IEEE TCAD 45(4), 2055-2068",
       "dblp_url": "https://dblp.org/rec/journals/tcad/LombardiBCVN26",
-      "doi_url": null,
-      "pdf_url": null
+      "doi_url": "https://doi.org/10.1109/tcad.2025.3607132",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::0ff4cce166742d523753ca768f3e1065",
+      "openaire_id": "doi_dedup___::0ff4cce166742d523753ca768f3e1065"
     },
     {
-      "key": "journals/tetc/BarbareschiCE26",
-      "title": "Blockchain-Enhanced PUF Authentication for IoT Devices",
+      "key": "journals/fgcs/BarbareschiBBE26",
+      "title": "Reliability analysis of hardware accelerators for decision tree-based classifier systems",
       "authors": [
         "Mario Barbareschi",
-        "Franco Cirillo",
-        "Christian Esposito"
+        "Salvatore Barone",
+        "Alberto Bosio",
+        "Antonio Emmanuele"
       ],
       "year": 2026,
       "type": "Journal",
-      "venue": "IEEE Transactions on Emerging Topics in Computing 14(2), 704-717",
-      "dblp_url": "https://dblp.org/rec/journals/tetc/BarbareschiCE26",
-      "doi_url": null,
-      "pdf_url": null
-    },
-    {
-      "key": "conf/cf/BarbareschiEMM26",
-      "title": "A PUF-based Secure Aggregation Protocol for Deep Edge Devices",
-      "authors": [
-        "Mario Barbareschi",
-        "Antonio Emmanuele",
-        "Alessia Manna",
-        "Nicola Mazzocca"
-      ],
-      "year": 2026,
-      "type": "Conference",
-      "venue": "CF (Companion) 2026, 49-56",
-      "dblp_url": "https://dblp.org/rec/conf/cf/BarbareschiEMM26",
-      "doi_url": null,
-      "pdf_url": null
+      "venue": "Future Generation Computer Systems 180, 108378",
+      "dblp_url": "https://dblp.org/rec/journals/fgcs/BarbareschiBBE26",
+      "doi_url": "https://doi.org/10.1016/j.future.2026.108378",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::d707b832de899709c277666c68924556",
+      "openaire_id": "doi_dedup___::d707b832de899709c277666c68924556"
     },
     {
       "key": "conf/ets/EmmanueleBB26",
@@ -110,40 +175,10 @@
       "type": "Conference",
       "venue": "ETS 2026, 1-6",
       "dblp_url": "https://dblp.org/rec/conf/ets/EmmanueleBB26",
-      "doi_url": null,
-      "pdf_url": null
-    },
-    {
-      "key": "journals/eaai/BarbareschiEMT25",
-      "title": "Designing on-board explainable passenger flow prediction",
-      "authors": [
-        "Mario Barbareschi",
-        "Antonio Emmanuele",
-        "Nicola Mazzocca",
-        "Franca Rocco di Torrepadula"
-      ],
-      "year": 2025,
-      "type": "Journal",
-      "venue": "Engineering Applications of Artificial Intelligence 139, 109648",
-      "dblp_url": "https://dblp.org/rec/journals/eaai/BarbareschiEMT25",
-      "doi_url": null,
-      "pdf_url": null
-    },
-    {
-      "key": "journals/jsa/BarbareschiCEM25",
-      "title": "Engineering SRAM-PUF on Arduino microcontroller",
-      "authors": [
-        "Mario Barbareschi",
-        "Franco Cirillo",
-        "Christian Esposito",
-        "Nicola Mazzocca"
-      ],
-      "year": 2025,
-      "type": "Journal",
-      "venue": "Journal of Systems Architecture 167, 103466",
-      "dblp_url": "https://dblp.org/rec/journals/jsa/BarbareschiCEM25",
-      "doi_url": null,
-      "pdf_url": null
+      "doi_url": "https://doi.org/10.1109/ets69887.2026.11591637",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_________::c4efbb08c7b8fc92521382e451aa9549",
+      "openaire_id": "doi_________::c4efbb08c7b8fc92521382e451aa9549"
     },
     {
       "key": "conf/IEEEares/BarbareschiEL25",
@@ -157,24 +192,26 @@
       "type": "Conference",
       "venue": "ARES 2025, 167-180",
       "dblp_url": "https://dblp.org/rec/conf/IEEEares/BarbareschiEL25",
-      "doi_url": null,
-      "pdf_url": null
+      "doi_url": "https://doi.org/10.1007/978-3-032-00644-8_10",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::434e1d9970998f5e4837d29c3f9311b1",
+      "openaire_id": "doi_dedup___::434e1d9970998f5e4837d29c3f9311b1"
     },
     {
-      "key": "conf/aina/BarbareschiCEL25",
-      "title": "PUF-Based Secure Key Management for Continuum Computing",
+      "key": "openaire/80dc5e36d145c8f8a19d",
+      "title": "A Margin Based Early-Stopping Approach for Random Forest Classifiers",
       "authors": [
         "Mario Barbareschi",
-        "Valentina Casola",
-        "Antonio Emmanuele",
-        "Daniele Lombardi"
+        "Antonio Emmanuele"
       ],
       "year": 2025,
       "type": "Conference",
-      "venue": "AINA 2025, 390-399",
-      "dblp_url": "https://dblp.org/rec/conf/aina/BarbareschiCEL25",
-      "doi_url": null,
-      "pdf_url": null
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/dsn-w65791.2025.00050",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::2b2fa02461f569a52467dd8f4c3cdf47",
+      "openaire_id": "doi_dedup___::2b2fa02461f569a52467dd8f4c3cdf47"
     },
     {
       "key": "conf/ddecs/BarbareschiBBDPT25",
@@ -191,8 +228,1752 @@
       "type": "Conference",
       "venue": "DDECS 2025, 139-144",
       "dblp_url": "https://dblp.org/rec/conf/ddecs/BarbareschiBBDPT25",
+      "doi_url": "https://doi.org/10.1109/ddecs63720.2025.11006680",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::5e5beeb93f8e94a8fccfb5c18d012b5d",
+      "openaire_id": "doi_dedup___::5e5beeb93f8e94a8fccfb5c18d012b5d"
+    },
+    {
+      "key": "openaire/64c5d28b01770f50551d",
+      "title": "Bridging Efficient and Explainable Traffic Flow Prediction on the Edge",
+      "authors": [
+        "Mario Barbareschi",
+        "Antonio Emmanuele",
+        "Nicola Mazzocca",
+        "Rocco di",
+        "Franca Torrepadula"
+      ],
+      "year": 2025,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-031-87778-0_34",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::1c9b134920ec5853265aa2379622ae83",
+      "openaire_id": "doi_dedup___::1c9b134920ec5853265aa2379622ae83"
+    },
+    {
+      "key": "openaire/996bb9e2bb4071ffea2c",
+      "title": "Designing Energy-Efficient Approximate Circuits for the FPGA Technology",
+      "authors": [
+        "Mario Barbareschi",
+        "Salvatore Barone",
+        "Nicola Mazzocca",
+        "Alberto Moriconi"
+      ],
+      "year": 2025,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/dsd67783.2025.00040",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::c8c5ab5926cee4f3c7b4fd4246050942",
+      "openaire_id": "doi_dedup___::c8c5ab5926cee4f3c7b4fd4246050942"
+    },
+    {
+      "key": "journals/eaai/BarbareschiEMT25",
+      "title": "Designing on-board explainable passenger flow prediction",
+      "authors": [
+        "Mario Barbareschi",
+        "Antonio Emmanuele",
+        "Nicola Mazzocca",
+        "Franca Rocco di Torrepadula"
+      ],
+      "year": 2025,
+      "type": "Journal",
+      "venue": "Engineering Applications of Artificial Intelligence 139, 109648",
+      "dblp_url": "https://dblp.org/rec/journals/eaai/BarbareschiEMT25",
+      "doi_url": "https://doi.org/10.1016/j.engappai.2024.109648",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::52b7f99444b073c6a0af510d87460085",
+      "openaire_id": "doi_dedup___::52b7f99444b073c6a0af510d87460085"
+    },
+    {
+      "key": "journals/jsa/BarbareschiCEM25",
+      "title": "Engineering SRAM-PUF on Arduino microcontroller",
+      "authors": [
+        "Mario Barbareschi",
+        "Franco Cirillo",
+        "Christian Esposito",
+        "Nicola Mazzocca"
+      ],
+      "year": 2025,
+      "type": "Journal",
+      "venue": "Journal of Systems Architecture 167, 103466",
+      "dblp_url": "https://dblp.org/rec/journals/jsa/BarbareschiCEM25",
+      "doi_url": "https://doi.org/10.1016/j.sysarc.2025.103466",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::27120546e7337c8213f2d72a48f3abda",
+      "openaire_id": "doi_dedup___::27120546e7337c8213f2d72a48f3abda"
+    },
+    {
+      "key": "openaire/fc4ef7f6497661ecc6e4",
+      "title": "Harnessing Explainable AI in Railway: A Decision Tree-Based Approach",
+      "authors": [
+        "Mario Barbareschi",
+        "Antonio Emmanuele",
+        "Nicola Mazzocca",
+        "Franca Rocco di Torrepadula"
+      ],
+      "year": 2025,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/edcc-c66476.2025.00043",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::60f9237acabde366e9e70ccb58c81af7",
+      "openaire_id": "doi_dedup___::60f9237acabde366e9e70ccb58c81af7"
+    },
+    {
+      "key": "openaire/2bbd9e3221b4f8f83141",
+      "title": "Investigating the Resilience Source of Classification Systems for Approximate Computing Techniques",
+      "authors": [
+        "Mario Barbareschi",
+        "Salvatore Barone"
+      ],
+      "year": 2025,
+      "type": "Other",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/tetc.2024.3403757",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::9280ce2967d2b2aaed529c222f24f369",
+      "openaire_id": "doi_dedup___::9280ce2967d2b2aaed529c222f24f369"
+    },
+    {
+      "key": "conf/aina/BarbareschiCEL25",
+      "title": "PUF-Based Secure Key Management for Continuum Computing",
+      "authors": [
+        "Mario Barbareschi",
+        "Valentina Casola",
+        "Antonio Emmanuele",
+        "Daniele Lombardi"
+      ],
+      "year": 2025,
+      "type": "Conference",
+      "venue": "AINA 2025, 390-399",
+      "dblp_url": "https://dblp.org/rec/conf/aina/BarbareschiCEL25",
+      "doi_url": "https://doi.org/10.1007/978-3-031-87778-0_38",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::ac8925fbc612d7a52a24a4314630b726",
+      "openaire_id": "doi_dedup___::ac8925fbc612d7a52a24a4314630b726"
+    },
+    {
+      "key": "openaire/b53642f927a765e6f28e",
+      "title": "A comprehensive evaluation of interrupt measurement techniques for predictability in safety-critical systems",
+      "authors": [
+        "Daniele Lombardi",
+        "Mario Barbareschi",
+        "Salvatore Barone",
+        "Valentina Casola"
+      ],
+      "year": 2024,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1145/3664476.3670451",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::094143f23f11ba5db749592a958ee8a6",
+      "openaire_id": "doi_dedup___::094143f23f11ba5db749592a958ee8a6"
+    },
+    {
+      "key": "openaire/6402198fc8ef9f5c219d",
+      "title": "A Lightweight PUF-Based Protocol for Dynamic and Secure Group Key Management in IoT",
+      "authors": [
+        "Mario Barbareschi",
+        "Valentina Casola",
+        "Antonio Emmanuele",
+        "Daniele Lombardi"
+      ],
+      "year": 2024,
+      "type": "Other",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/jiot.2024.3418207",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::4455f9c679963e9f3a1c9b96b0a06eb5",
+      "openaire_id": "doi_dedup___::4455f9c679963e9f3a1c9b96b0a06eb5"
+    },
+    {
+      "key": "openaire/09a94030589158035f1c",
+      "title": "Approximate Computing for Test and Test of Approximate Computing",
+      "authors": [
+        "Mario Barbareschi",
+        "Alberto Bosio",
+        "Patrick Girard",
+        "Bastien Deveautour",
+        "Marcello Traiola",
+        "Arnaud Virazel"
+      ],
+      "year": 2024,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
       "doi_url": null,
-      "pdf_url": null
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=dedup_wf_002::6387fbe00c626df7b5f6331bd65a4a7b",
+      "openaire_id": "dedup_wf_002::6387fbe00c626df7b5f6331bd65a4a7b"
+    },
+    {
+      "key": "openaire/d3f27f2224610730cc6b",
+      "title": "Error Resiliency and Adversarial Robustness in Convolutional Neural Networks: An Empirical Analysis",
+      "authors": [
+        "Mario Barbareschi",
+        "Salvatore Barone",
+        "Valentina Casola",
+        "Salvatore Della Torca"
+      ],
+      "year": 2024,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-031-81900-1_9",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::d6c84385576a07e5e53d3137de392f74",
+      "openaire_id": "doi_dedup___::d6c84385576a07e5e53d3137de392f74"
+    },
+    {
+      "key": "openaire/b202b411664e750c9c3e",
+      "title": "Exploiting Functional Approximation on Decision-Tree Based Multiple Classifier Systems",
+      "authors": [
+        "Mario Barbareschi",
+        "Salvatore Barone",
+        "Antonio Emmanuele",
+        "Nicola Mazzocca"
+      ],
+      "year": 2024,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/vlsi-soc62099.2024.10767841",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::48c8c3837e827664e725562f113498fd",
+      "openaire_id": "doi_dedup___::48c8c3837e827664e725562f113498fd"
+    },
+    {
+      "key": "openaire/54092e2e37223b39ca3c",
+      "title": "FPGA approximate logic synthesis through catalog-based AIG-rewriting technique",
+      "authors": [
+        "Mario Barbareschi",
+        "Salvatore Barone",
+        "Nicola Mazzocca",
+        "Alberto Moriconi"
+      ],
+      "year": 2024,
+      "type": "Other",
+      "venue": "Journal of Systems Architecture",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1016/j.sysarc.2024.103112",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::c6cb761abca25bb98fbb67dd70191a8f",
+      "openaire_id": "doi_dedup___::c6cb761abca25bb98fbb67dd70191a8f"
+    },
+    {
+      "key": "openaire/1939cb39f69ea58a3fed",
+      "title": "On the adoption of PUF for key agreement scheme in Internet of Things",
+      "authors": [
+        "Mario Barbareschi",
+        "Valentina Casola",
+        "Antonio Emmanuele",
+        "Daniele Lombardi"
+      ],
+      "year": 2024,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1145/3637543.3654656",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::a08fb6d045ff8e3110049358e22531b8",
+      "openaire_id": "doi_dedup___::a08fb6d045ff8e3110049358e22531b8"
+    },
+    {
+      "key": "openaire/3914aea3f946db477c59",
+      "title": "A Catalog-Based AIG-Rewriting Approach to the Design of Approximate Components",
+      "authors": [
+        "Barbareschi M.",
+        "Barone S.",
+        "Mazzocca N.",
+        "Moriconi A."
+      ],
+      "year": 2023,
+      "type": "Other",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/tetc.2022.3170502",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::140ae8bdc74c287dee5cf823bda1ca42",
+      "openaire_id": "doi_dedup___::140ae8bdc74c287dee5cf823bda1ca42"
+    },
+    {
+      "key": "openaire/e5b82809e86b34795271",
+      "title": "A real-time vital control module to increase capabilities of railway control systems in highly automated train operations",
+      "authors": [
+        "Arturo Amendola",
+        "Mario Barbareschi",
+        "Salvatore De Simone",
+        "Giovanni Mezzina",
+        "Alberto Moriconi",
+        "Cataldo Luciano Saragaglia",
+        "Diana Serra",
+        "Daniela De Venuto"
+      ],
+      "year": 2023,
+      "type": "Other",
+      "venue": "Real-Time Systems",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/s11241-023-09401-5",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::1b1bb83a269b0f32e93cc2f0b725f06e",
+      "openaire_id": "doi_dedup___::1b1bb83a269b0f32e93cc2f0b725f06e"
+    },
+    {
+      "key": "openaire/11102c3f816f0ad3546a",
+      "title": "A Step Toward Safe Unattended Train Operations: A Pioneer Vital Control Module",
+      "authors": [
+        "Giovanni Mezzina",
+        "Arturo Amendola",
+        "Mario Barbareschi",
+        "Salvatore De Simone",
+        "Grazia Mascellaro",
+        "Alberto Moriconi",
+        "Cataldo Luciano Saragaglia",
+        "Diana Serra",
+        "Daniela De Venuto"
+      ],
+      "year": 2023,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.23919/date56975.2023.10137186",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::a9ad4cadb51b1f4cd03d94002e588903",
+      "openaire_id": "doi_dedup___::a9ad4cadb51b1f4cd03d94002e588903"
+    },
+    {
+      "key": "openaire/b5cd2873109ed0d24f0a",
+      "title": "Automatic Approximation of Computer Systems Through Multi-objective Optimization",
+      "authors": [
+        "Mario Barbareschi",
+        "Salvatore Barone",
+        "Alberto Bosio",
+        "Marcello Traiola"
+      ],
+      "year": 2023,
+      "type": "Other",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-031-42478-6_15",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::11082b021b77c2fa2f4a42759ecb56ae",
+      "openaire_id": "doi_dedup___::11082b021b77c2fa2f4a42759ecb56ae"
+    },
+    {
+      "key": "openaire/94c83bbd1318754ae760",
+      "title": "Automatic Test Generation to Improve Scrum for Safety Agile Methodology",
+      "authors": [
+        "Mario Barbareschi",
+        "Salvatore Barone",
+        "Valentina Casola",
+        "Salvatore Della Torca",
+        "Daniele Lombardi"
+      ],
+      "year": 2023,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1145/3600160.3605061",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::82428816090d5b3a79ad401c3485c220",
+      "openaire_id": "doi_dedup___::82428816090d5b3a79ad401c3485c220"
+    },
+    {
+      "key": "openaire/ce90f82294e5fa0d271d",
+      "title": "Cross-Resiliency Analysis of Neural Networks Implementations Against Adversarial Attacks",
+      "authors": [
+        "Salvatore Della Torca",
+        "Mario Barbareschi",
+        "Salvatore Barone",
+        "Valentina Casola",
+        "Stefano Marrone"
+      ],
+      "year": 2023,
+      "type": "Other",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.2139/ssrn.4567884",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_________::3b736883423ac4e9bc7ab39d0ce160ce",
+      "openaire_id": "doi_________::3b736883423ac4e9bc7ab39d0ce160ce"
+    },
+    {
+      "key": "openaire/261d6edcf3b507076f3d",
+      "title": "Ensuring End-to-End Security in Computing Continuum Exploiting Physical Unclonable Functions",
+      "authors": [
+        "Barbareschi M.",
+        "Casola V.",
+        "Lombardi D."
+      ],
+      "year": 2023,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/cloudcom59040.2023.00051",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::9558b93e7ed2ac86f8c9a59b5e8cac32",
+      "openaire_id": "doi_dedup___::9558b93e7ed2ac86f8c9a59b5e8cac32"
+    },
+    {
+      "key": "openaire/dd805fcc4b585d521f9e",
+      "title": "Input-aware accuracy characterization for approximate circuits",
+      "authors": [
+        "Ali Piri",
+        "Salvatore Pappalardo",
+        "Salvatore Barone",
+        "Mario Barbareschi",
+        "Bastien Deveautour",
+        "Marcello Traiola",
+        "Ian O'Connor",
+        "Alberto Bosio"
+      ],
+      "year": 2023,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/dsn-w58399.2023.00050",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::dc1cfec2bf53a1e39e2b24bc2dc7b39b",
+      "openaire_id": "doi_dedup___::dc1cfec2bf53a1e39e2b24bc2dc7b39b"
+    },
+    {
+      "key": "openaire/1e5824b72c880cb3457e",
+      "title": "Lightweight Secure Keys Management Based on Physical Unclonable Functions",
+      "authors": [
+        "Mario Barbareschi",
+        "Valentina Casola",
+        "Daniele Lombardi"
+      ],
+      "year": 2023,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/iwasi58316.2023.10164402",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::1f64c27963c484a6445c10f06c14cfa8",
+      "openaire_id": "doi_dedup___::1f64c27963c484a6445c10f06c14cfa8"
+    },
+    {
+      "key": "openaire/492455d12cdd0593b05a",
+      "title": "Model-Based Vital Control Architecture for Highly Automated Train Operations",
+      "authors": [
+        "Mezzina G.",
+        "Saragaglia C. L.",
+        "Barbareschi M.",
+        "Serra D.",
+        "De Simone S.",
+        "Moriconi A.",
+        "De Venuto D."
+      ],
+      "year": 2023,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-031-30333-3_21",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::6eed10c7eda407f6a4dda5a40d2b4643",
+      "openaire_id": "doi_dedup___::6eed10c7eda407f6a4dda5a40d2b4643"
+    },
+    {
+      "key": "openaire/3dd34626bd2aec97dd2d",
+      "title": "Special Issue on Approximate Computing: Challenges, Methodologies, Algorithms, and Architectures for Dependable and Secure Systems",
+      "authors": [
+        "Alberto Bosio",
+        "Mario Barbareschi",
+        "Alessandro Savino",
+        "Jie Han",
+        "Jürgen Teich"
+      ],
+      "year": 2023,
+      "type": "Other",
+      "venue": "IEEE Design and Test",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/mdat.2022.3221909",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::454547b91a646e086803f1f0c722c1d5",
+      "openaire_id": "doi_dedup___::454547b91a646e086803f1f0c722c1d5"
+    },
+    {
+      "key": "openaire/453091fceba47b86b769",
+      "title": "A Design Space Exploration Framework for Memristor-Based Crossbar Architecture",
+      "authors": [
+        "Mario Barbareschi",
+        "Alberto Bosio",
+        "Ian O'Connor",
+        "Petr Fiser",
+        "Marcello Traiola"
+      ],
+      "year": 2022,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/ddecs54261.2022.9770145",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::cf227e54dfd7308ecde337b126bb350f",
+      "openaire_id": "doi_dedup___::cf227e54dfd7308ecde337b126bb350f"
+    },
+    {
+      "key": "openaire/5234385a4d4accdad752",
+      "title": "A Genetic-algorithm-based Approach to the Design of DCT Hardware Accelerators",
+      "authors": [
+        "Mario Barbareschi",
+        "Salvatore Barone",
+        "Alberto Bosio",
+        "Jie Han",
+        "Marcello Traiola"
+      ],
+      "year": 2022,
+      "type": "Other",
+      "venue": "ACM Journal on Emerging Technologies in Computing Systems",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1145/3501772",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::c068a7c897d405510d2a6fed3c5c1427",
+      "openaire_id": "doi_dedup___::c068a7c897d405510d2a6fed3c5c1427"
+    },
+    {
+      "key": "openaire/1851ce967c978c2cbb23",
+      "title": "A Memory Protection Strategy for Resource Constrained Devices in Safety Critical Applications",
+      "authors": [
+        "Mario Barbareschi",
+        "Salvatore Barone",
+        "Valentina Casola",
+        "Pasquale Montone",
+        "Alberto Moriconi"
+      ],
+      "year": 2022,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/icsrs56243.2022.10067350",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::a192a8e6db35cbe88cbc33b83d842f95",
+      "openaire_id": "doi_dedup___::a192a8e6db35cbe88cbc33b83d842f95"
+    },
+    {
+      "key": "openaire/b1e6e6de527f0c203433",
+      "title": "Design Space Exploration Tools",
+      "authors": [
+        "Mario Barbareschi",
+        "Salvatore Barone",
+        "Nicola Mazzocca",
+        "Alberto Moriconi"
+      ],
+      "year": 2022,
+      "type": "Other",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-030-94705-7_8",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::0b9ce150deba4001d618dabb8adbfdf1",
+      "openaire_id": "doi_dedup___::0b9ce150deba4001d618dabb8adbfdf1"
+    },
+    {
+      "key": "openaire/c64906999477e01691ef",
+      "title": "Input-Aware Approximate Computing",
+      "authors": [
+        "Ali Piri",
+        "Sepide Saeedi",
+        "Mario Barbareschi",
+        "Bastien Deveautour",
+        "Stefano Di Carlo",
+        "Ian O'Connor",
+        "Alessandro Savino",
+        "Marcello Traiola",
+        "Alberto Bosio"
+      ],
+      "year": 2022,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/aqtr55203.2022.9801944",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::df9b54ecb33ad77d8b59f34caf41af7e",
+      "openaire_id": "doi_dedup___::df9b54ecb33ad77d8b59f34caf41af7e"
+    },
+    {
+      "key": "openaire/75920985f31ecf976dc5",
+      "title": "Scrum for safety: an agile methodology for safety-critical software systems",
+      "authors": [
+        "Mario Barbareschi",
+        "Salvatore Barone",
+        "Riccardo Carbone",
+        "Valentina Casola"
+      ],
+      "year": 2022,
+      "type": "Other",
+      "venue": "Software Quality Journal",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/s11219-022-09593-2",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::33ce6ab2497a82e886aa529f27e988c7",
+      "openaire_id": "doi_dedup___::33ce6ab2497a82e886aa529f27e988c7"
+    },
+    {
+      "key": "openaire/87aca5ab276cc64e0364",
+      "title": "Smart On-Board Surveillance Module for Safe Autonomous Train Operations",
+      "authors": [
+        "Mezzina G.",
+        "Barbareschi M.",
+        "De Simone S.",
+        "Di Benedetto A.",
+        "Narracci G.",
+        "Saragaglia C. L.",
+        "Serra D.",
+        "De Venuto D."
+      ],
+      "year": 2022,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-030-95498-7_44",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::b4ef24ace04a1e080229b6e9a2691ac1",
+      "openaire_id": "doi_dedup___::b4ef24ace04a1e080229b6e9a2691ac1"
+    },
+    {
+      "key": "openaire/49708bde29fb48ce8e74",
+      "title": "Advancing synthesis of decision tree-based multiple classifier systems: an approximate computing case study",
+      "authors": [
+        "Barbareschi Mario",
+        "Barone Salvatore",
+        "Mazzocca Nicola"
+      ],
+      "year": 2021,
+      "type": "Other",
+      "venue": "Knowledge and Information Systems",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/s10115-021-01565-5",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::2f7ff270c44570339a01b457017dfea4",
+      "openaire_id": "doi_dedup___::2f7ff270c44570339a01b457017dfea4"
+    },
+    {
+      "key": "openaire/0b1304031dfd6acf4910",
+      "title": "Development and validation of a safe communication protocol compliant to railway standards",
+      "authors": [
+        "Duccio Bertieri",
+        "Andrea Ceccarelli",
+        "Tommaso Zoppi",
+        "Innocenzo Mungiello",
+        "Mario Barbareschi",
+        "Andrea Bondavalli"
+      ],
+      "year": 2021,
+      "type": "Other",
+      "venue": "Journal of the Brazilian Computer Society",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1186/s13173-021-00106-w",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::fe4df7b6d89668722009284d127af777",
+      "openaire_id": "doi_dedup___::fe4df7b6d89668722009284d127af777"
+    },
+    {
+      "key": "openaire/5e1a3f24d4299c38bdb8",
+      "title": "Editorial: Special issue on Advancing on Approximate Computing: Methodologies, Architectures and Algorithms",
+      "authors": [
+        "Mario Barbareschi",
+        "Alberto Bosio",
+        "Lukas Sekanina",
+        "Claus Braun"
+      ],
+      "year": 2021,
+      "type": "Other",
+      "venue": "Future Generation Computer Systems",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1016/j.future.2021.05.027",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::c4f3f36ca47d37c9a7a42b1a2c9e0641",
+      "openaire_id": "doi_dedup___::c4f3f36ca47d37c9a7a42b1a2c9e0641"
+    },
+    {
+      "key": "openaire/e8b9f41d8f1ee6636139",
+      "title": "Enforcing Mutual Authentication and Confidentiality in Wireless Sensor Networks Using Physically Unclonable Functions: A Case Study",
+      "authors": [
+        "Mario Barbareschi",
+        "Salvatore Barone",
+        "Alfonso Fezza",
+        "Erasmo La Montagna"
+      ],
+      "year": 2021,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-030-85347-1_22",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::8861c853b428a1354dfc15b1af2ed8f1",
+      "openaire_id": "doi_dedup___::8861c853b428a1354dfc15b1af2ed8f1"
+    },
+    {
+      "key": "openaire/054da67eaa6e5d101758",
+      "title": "Multi-Objective Application-Driven Approximate Design Method",
+      "authors": [
+        "Salvatore Barone",
+        "Marcello Traiola",
+        "Mario Barbareschi",
+        "Alberto Bosio"
+      ],
+      "year": 2021,
+      "type": "Other",
+      "venue": "IEEE Access",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/access.2021.3087858",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::d86e640a7314887a1dfeafae6864e668",
+      "openaire_id": "doi_dedup___::d86e640a7314887a1dfeafae6864e668"
+    },
+    {
+      "key": "openaire/2381c5ba7675f1570f55",
+      "title": "On the Adoption of Physically Unclonable Functions to Secure IIoT Devices",
+      "authors": [
+        "Barbareschi M.",
+        "Casola V.",
+        "De Benedictis A.",
+        "La Montagna E.",
+        "Mazzocca N."
+      ],
+      "year": 2021,
+      "type": "Other",
+      "venue": "IEEE Transactions on Industrial Informatics",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/tii.2021.3059656",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::6e87d4bb0063afd17f06d9d048132cbf",
+      "openaire_id": "doi_dedup___::6e87d4bb0063afd17f06d9d048132cbf"
+    },
+    {
+      "key": "openaire/e376b04262372a733c88",
+      "title": "Scrum for Safety: Agile Development in Safety-Critical Software Systems",
+      "authors": [
+        "Riccardo Carbone",
+        "Salvatore Barone",
+        "Mario Barbareschi",
+        "Valentina Casola"
+      ],
+      "year": 2021,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-030-85347-1_10",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::a489bc5db2fb0af8bc42378ef0dbd72a",
+      "openaire_id": "doi_dedup___::a489bc5db2fb0af8bc42378ef0dbd72a"
+    },
+    {
+      "key": "openaire/66348a13e262c7a13c24",
+      "title": "A Novel Test Flow for Approximate Digital Circuits",
+      "authors": [
+        "Marcello Traiola",
+        "Arnaud Virazel",
+        "Patrick Girard",
+        "Mario Barbareschi",
+        "Alberto Bosio"
+      ],
+      "year": 2020,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": null,
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=dedup_wf_002::1d314b4161dfd499af46d5d2f5fc8bb7",
+      "openaire_id": "dedup_wf_002::1d314b4161dfd499af46d5d2f5fc8bb7"
+    },
+    {
+      "key": "openaire/8496ad5b75184b770adc",
+      "title": "A Survey of Testing Techniques for Approximate Integrated Circuits",
+      "authors": [
+        "Marcello Traiola",
+        "Arnaud Virazel",
+        "Patrick Girard 0001",
+        "Mario Barbareschi",
+        "Alberto Bosio"
+      ],
+      "year": 2020,
+      "type": "Other",
+      "venue": "Proceedings of the IEEE",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/jproc.2020.2999613",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::f2434359ef52ac652f8c7b3d91e5a0c7",
+      "openaire_id": "doi_dedup___::f2434359ef52ac652f8c7b3d91e5a0c7"
+    },
+    {
+      "key": "openaire/a4dc1cc2cac01fc3fc66",
+      "title": "Maximizing Yield for Approximate Integrated Circuits",
+      "authors": [
+        "Marcello Traiola",
+        "Arnaud Virazel",
+        "Patrick Girard",
+        "Mario Barbareschi",
+        "Alberto Bosio"
+      ],
+      "year": 2020,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.23919/date48585.2020.9116341",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::051d7f50ef5a2f37cacef0256972b0c8",
+      "openaire_id": "doi_dedup___::051d7f50ef5a2f37cacef0256972b0c8"
+    },
+    {
+      "key": "openaire/0a6b32998d707ca1c9f8",
+      "title": "A PUF-based mutual authentication scheme for Cloud-Edges IoT systems",
+      "authors": [
+        "Barbareschi M.",
+        "De Benedictis A.",
+        "La Montagna E.",
+        "Mazzeo A.",
+        "Mazzocca N."
+      ],
+      "year": 2019,
+      "type": "Other",
+      "venue": "Future Generation Computer Systems",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1016/j.future.2019.06.012",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::46b709835e6646f32b018ee173fb2bee",
+      "openaire_id": "doi_dedup___::46b709835e6646f32b018ee173fb2bee"
+    },
+    {
+      "key": "openaire/58482d9a747381ec778c",
+      "title": "A Test Pattern Generation Technique for Approximate Circuits Based on an ILP-Formulated Pattern Selection Procedure",
+      "authors": [
+        "Marcello Traiola",
+        "Arnaud Virazel",
+        "Patrick Girard",
+        "Mario Barbareschi",
+        "Alberto Bosio"
+      ],
+      "year": 2019,
+      "type": "Other",
+      "venue": "IEEE Transactions on Nanotechnology",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/tnano.2019.2923040",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::bbf2df407697b018737147ab7a31ea5f",
+      "openaire_id": "doi_dedup___::bbf2df407697b018737147ab7a31ea5f"
+    },
+    {
+      "key": "openaire/8b72bb2f6c3ac28cc2f2",
+      "title": "Efficient Reed-Muller Implementation for Fuzzy Extractor Schemes",
+      "authors": [
+        "Barbareschi M.",
+        "Barone S.",
+        "Mazzeo A.",
+        "Mazzocca N."
+      ],
+      "year": 2019,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/dtis.2019.8735029",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::69773bf56b395d8a22e21c0cac949ee6",
+      "openaire_id": "doi_dedup___::69773bf56b395d8a22e21c0cac949ee6"
+    },
+    {
+      "key": "openaire/f94fedd7e62a24a7a2eb",
+      "title": "PUF-Enabled Authentication-as-a-Service in Fog-IoT Systems",
+      "authors": [
+        "Barbareschi M.",
+        "De Benedictis A.",
+        "ERASMO LA MONTAGNA",
+        "Mazzeo A.",
+        "Mazzocca N."
+      ],
+      "year": 2019,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/wetice.2019.00020",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::a2589a84c3bc8b7b137f4f96fdbf17c2",
+      "openaire_id": "doi_dedup___::a2589a84c3bc8b7b137f4f96fdbf17c2"
+    },
+    {
+      "key": "openaire/3a5379b42f00c8128dcb",
+      "title": "Special Issue on Design, Technology, and Test of Integrated Circuits and Systems",
+      "authors": [
+        "Bosio A.",
+        "Barbareschi M."
+      ],
+      "year": 2019,
+      "type": "Other",
+      "venue": "Journal of Circuits System and Computers",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1142/s0218126619020018",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::0e0e3c5638fbaeedb2ef14a28d3cf3f4",
+      "openaire_id": "doi_dedup___::0e0e3c5638fbaeedb2ef14a28d3cf3f4"
+    },
+    {
+      "key": "openaire/d67097462b3b992e6a92",
+      "title": "A Ring Oscillator-Based Identification Mechanism Immune to Aging and External Working Conditions",
+      "authors": [
+        "Mario Barbareschi",
+        "Giorgio Di Natale",
+        "Lionel Torres",
+        "Antonino Mazzeo"
+      ],
+      "year": 2018,
+      "type": "Other",
+      "venue": "IEEE Transactions on Circuits and Systems I Regular Papers",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/tcsi.2017.2727546",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::c8e2245dc04cbc7e3325b4ece945bbed",
+      "openaire_id": "doi_dedup___::c8e2245dc04cbc7e3325b4ece945bbed"
+    },
+    {
+      "key": "openaire/2b02d734479630614fdf",
+      "title": "An IP Core Remote Anonymous Activation Protocol",
+      "authors": [
+        "Domenico Amelino",
+        "MARIO BARBARESCHI",
+        "Alessandro CILARDO"
+      ],
+      "year": 2018,
+      "type": "Other",
+      "venue": "IEEE Transactions on Emerging Topics in Computing",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/tetc.2016.2624026",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::4dd0c0f20f2ee049764b0fd62f81ed1c",
+      "openaire_id": "doi_dedup___::4dd0c0f20f2ee049764b0fd62f81ed1c"
+    },
+    {
+      "key": "openaire/a480cd2398540f434371",
+      "title": "DTIS 2018 foreword",
+      "authors": [
+        "P. Bernardi",
+        "A. Bosio",
+        "M. Barbareschi"
+      ],
+      "year": 2018,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/dtis.2018.8368546",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::1c89b12c4b0ba35d23f06ccae7f3029f",
+      "openaire_id": "doi_dedup___::1c89b12c4b0ba35d23f06ccae7f3029f"
+    },
+    {
+      "key": "openaire/7673e4dc67c4876c0dba",
+      "title": "Estimating dynamic power consumption for memristor-based CiM architecture",
+      "authors": [
+        "Marcello Traiola",
+        "Mario Barbareschi",
+        "Alberto Bosio"
+      ],
+      "year": 2018,
+      "type": "Other",
+      "venue": "Microelectronics Reliability",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1016/j.microrel.2017.12.009",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::fc67891fecd7d4d3cee1b55801770201",
+      "openaire_id": "doi_dedup___::fc67891fecd7d4d3cee1b55801770201"
+    },
+    {
+      "key": "openaire/d3eee9b993e7c94f5204",
+      "title": "On the Comparison of Different ATPG Approaches for Approximate Integrated Circuits",
+      "authors": [
+        "Marcello Traiola",
+        "Arnaud Virazel",
+        "Patrick Girard 0001",
+        "Mario Barbareschi",
+        "Alberto Bosio"
+      ],
+      "year": 2018,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/ddecs.2018.00022",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::faa5e8bdc9c33c4b5c1683d215e96a32",
+      "openaire_id": "doi_dedup___::faa5e8bdc9c33c4b5c1683d215e96a32"
+    },
+    {
+      "key": "openaire/ea2eb69687ea2f56dc40",
+      "title": "Predicting the Impact of Functional Approximation: from Component- to Application-Level",
+      "authors": [
+        "Marcello Traiola",
+        "Alessandro Savino",
+        "Mario Barbareschi",
+        "Stefano Di Carlo",
+        "Alberto Bosio"
+      ],
+      "year": 2018,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/iolts.2018.8474072",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::a0c2ad5067c7277580ddc9ba7d8fa10d",
+      "openaire_id": "doi_dedup___::a0c2ad5067c7277580ddc9ba7d8fa10d"
+    },
+    {
+      "key": "openaire/199ed1bca787ad4a89a6",
+      "title": "Synthesis of Finite State Machines on Memristor Crossbars",
+      "authors": [
+        "Umberto Ferrandino",
+        "Marcello Traiola",
+        "Mario Barbareschi",
+        "Antonino Mazzeo",
+        "Petr Fiser",
+        "Alberto Bosio"
+      ],
+      "year": 2018,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/ddecs.2018.000-3",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::4b32593421ddd155bfaba727b58f289b",
+      "openaire_id": "doi_dedup___::4b32593421ddd155bfaba727b58f289b"
+    },
+    {
+      "key": "openaire/0613e19c72c7c02fd033",
+      "title": "Testing approximate digital circuits: Challenges and opportunities",
+      "authors": [
+        "Marcello Traiola",
+        "Arnaud Virazel",
+        "Patrick Girard",
+        "Mario Barbareschi",
+        "Alberto Bosio"
+      ],
+      "year": 2018,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/latw.2018.8349681",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::6c14ceb24b339d9ee25a69bfaf6a4361",
+      "openaire_id": "doi_dedup___::6c14ceb24b339d9ee25a69bfaf6a4361"
+    },
+    {
+      "key": "openaire/6618f27064be1b4a0f31",
+      "title": "A Proposal for the Secure Activation and Licensing of FPGA IP Cores.",
+      "authors": [
+        "DOMENICO AMELINO",
+        "Mario Barbareschi",
+        "Alessandro Cilardo"
+      ],
+      "year": 2017,
+      "type": "Conference",
+      "venue": "DBLP",
+      "dblp_url": null,
+      "doi_url": null,
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=dedup_wf_002::bc71f6dcac0d7b09c3aaa974e43e31b9",
+      "openaire_id": "dedup_wf_002::bc71f6dcac0d7b09c3aaa974e43e31b9"
+    },
+    {
+      "key": "openaire/cbf4c66ac6a602b7c9d1",
+      "title": "Approximate computing: Design & test for integrated circuits",
+      "authors": [
+        "Arnaud Virazel",
+        "Alberto Bosio",
+        "Patrick Girard",
+        "Mario Barbareschi"
+      ],
+      "year": 2017,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/latw.2017.7906737",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::82144a09013739e2a5dca1dc9750d4b1",
+      "openaire_id": "doi_dedup___::82144a09013739e2a5dca1dc9750d4b1"
+    },
+    {
+      "key": "openaire/fb0d6fdb4619a5edc540",
+      "title": "Approximate Decision Tree-Based Multiple Classifier Systems",
+      "authors": [
+        "Mario Barbareschi",
+        "Cristina Papa",
+        "Carlo Sansone"
+      ],
+      "year": 2017,
+      "type": "Other",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-319-67308-0_5",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::cddf9e4d5d730f67da51abd2e7645fb6",
+      "openaire_id": "doi_dedup___::cddf9e4d5d730f67da51abd2e7645fb6"
+    },
+    {
+      "key": "openaire/b1615885c31142c8b61f",
+      "title": "Can we Approximate the Test of Integrated Circuits?",
+      "authors": [
+        "Imran Wali",
+        "Marcello Traiola",
+        "Arnaud Virazel",
+        "Patrick Girard",
+        "Mario Barbareschi",
+        "Alberto Bosio"
+      ],
+      "year": 2017,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": null,
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=dedup_wf_002::45d26694a515481db703f1363e61779e",
+      "openaire_id": "dedup_wf_002::45d26694a515481db703f1363e61779e"
+    },
+    {
+      "key": "openaire/a1f69ebb8d2e832bcc18",
+      "title": "Formal Design Space Exploration for memristor-based crossbar architecture",
+      "authors": [
+        "Marcello Traiola",
+        "Mario Barbareschi",
+        "Alberto Bosio"
+      ],
+      "year": 2017,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/ddecs.2017.7934557",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::8ec199d435b7b8daf9d94c214cfdaada",
+      "openaire_id": "doi_dedup___::8ec199d435b7b8daf9d94c214cfdaada"
+    },
+    {
+      "key": "openaire/755cc4d52335a0256643",
+      "title": "Implementation and Analysis of Ring Oscillator Circuits on Xilinx FPGAs",
+      "authors": [
+        "Barbareschi M.",
+        "Di Natale G.",
+        "Torres L."
+      ],
+      "year": 2017,
+      "type": "Other",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-319-44318-8_12",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::d1250ff057482273d3e3bed751145c60",
+      "openaire_id": "doi_dedup___::d1250ff057482273d3e3bed751145c60"
+    },
+    {
+      "key": "openaire/7766039945cb0a89296d",
+      "title": "Implementation of a reliable mechanism for protecting IP cores on low-end FPGA devices",
+      "authors": [
+        "Barbareschi M.",
+        "Bagnasco P."
+      ],
+      "year": 2017,
+      "type": "Other",
+      "venue": "International Journal of Embedded Systems",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1504/ijes.2017.086135",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::a9ed10eaf5ed7efd436ef74719e8bdf2",
+      "openaire_id": "doi_dedup___::a9ed10eaf5ed7efd436ef74719e8bdf2"
+    },
+    {
+      "key": "openaire/f7bd2a2863bfa5101ac5",
+      "title": "Memristive devices: Technology, design automation and computing frontiers",
+      "authors": [
+        "Mario Barbareschi",
+        "Alberto Bosio",
+        "Hoang Anh Du Nguyen",
+        "Said Hamdioui",
+        "Marcello Traiola",
+        "Elena-Ioana Vatajelu"
+      ],
+      "year": 2017,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/dtis.2017.7930178",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::9d52d19ec3ce904ca365af3b9c73e61f",
+      "openaire_id": "doi_dedup___::9d52d19ec3ce904ca365af3b9c73e61f"
+    },
+    {
+      "key": "openaire/2340e902c4797cfe97d9",
+      "title": "Notions on Silicon Physically Unclonable Functions",
+      "authors": [
+        "Barbareschi M."
+      ],
+      "year": 2017,
+      "type": "Other",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-319-44318-8_10",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::21b53310042256a4f9611f95a413959c",
+      "openaire_id": "doi_dedup___::21b53310042256a4f9611f95a413959c"
+    },
+    {
+      "key": "openaire/f86bf4b43c7f719d43d9",
+      "title": "Outperforming Image Segmentation by Exploiting Approximate K-Means Algorithms",
+      "authors": [
+        "Amato Flora",
+        "Barbareschi Mario",
+        "Cozzolino Giovanni",
+        "Mazzeo Antonino",
+        "Mazzocca Nicola",
+        "Tammaro Antonio"
+      ],
+      "year": 2017,
+      "type": "Other",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-319-67308-0_4",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::c6e212a36f194e7465fae093e8d3be62",
+      "openaire_id": "doi_dedup___::c6e212a36f194e7465fae093e8d3be62"
+    },
+    {
+      "key": "openaire/b8a338be52376b0d817e",
+      "title": "Towards approximation during test of Integrated Circuits",
+      "authors": [
+        "Imran Wali",
+        "Marcello Traiola",
+        "Arnaud Virazel",
+        "Patrick Girard",
+        "Mario Barbareschi",
+        "Alberto Bosio"
+      ],
+      "year": 2017,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/ddecs.2017.7934574",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::9e3153da3da002cc7ce9260637c69f11",
+      "openaire_id": "doi_dedup___::9e3153da3da002cc7ce9260637c69f11"
+    },
+    {
+      "key": "openaire/3e3e455f012ad2e5a4dd",
+      "title": "Towards digital circuit approximation by exploiting fault simulation",
+      "authors": [
+        "Marcello Traiola",
+        "Arnaud Virazel",
+        "Patrick Girard",
+        "Mario Barbareschi",
+        "Alberto Bosio"
+      ],
+      "year": 2017,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/ewdts.2017.8110108",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::63f1ad17f1bd34f68180be5b370f8b38",
+      "openaire_id": "doi_dedup___::63f1ad17f1bd34f68180be5b370f8b38"
+    },
+    {
+      "key": "openaire/4c2a4f9bec176d20a600",
+      "title": "A Case Study on the Approximate Test of Integrated Circuits",
+      "authors": [
+        "Imran Wali",
+        "Arnaud Virazel",
+        "Patrick Girard",
+        "Mario Barbareschi",
+        "Alberto Bosio"
+      ],
+      "year": 2016,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": null,
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=dedup_wf_002::d7e872d265799030dbe344d7cabedf78",
+      "openaire_id": "dedup_wf_002::d7e872d265799030dbe344d7cabedf78"
+    },
+    {
+      "key": "openaire/8a6c06d7196a0803434d",
+      "title": "A Pruning Technique for B&B Based Design Exploration of Approximate Computing Variants",
+      "authors": [
+        "Barbareschi M.",
+        "Iannucci F.",
+        "Mazzeo A."
+      ],
+      "year": 2016,
+      "type": "Other",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/isvlsi.2016.110",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::db71ee8a17261374ebc90c883532d1b5",
+      "openaire_id": "doi_dedup___::db71ee8a17261374ebc90c883532d1b5"
+    },
+    {
+      "key": "openaire/64e9b970ad8c05343b04",
+      "title": "Adopting Decision Tree Based Policy Enforcement Mechanism to Protect Reconfigurable Devices",
+      "authors": [
+        "Mario Barbareschi",
+        "Antonino Mazzeo",
+        "Salvatore Miranda"
+      ],
+      "year": 2016,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-319-39345-2_7",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::0b404a774ce82fcff348501534d31c0b",
+      "openaire_id": "doi_dedup___::0b404a774ce82fcff348501534d31c0b"
+    },
+    {
+      "key": "openaire/a594b6efe5b1fe858092",
+      "title": "Chain-of-Trust for Microcontrollers using SRAM PUFs: the Linux Case Study",
+      "authors": [
+        "Amelino D.",
+        "Barbareschi M.",
+        "Mazzeo A."
+      ],
+      "year": 2016,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-319-49109-7_72",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::41df00246716159d06afd2d3ea430423",
+      "openaire_id": "doi_dedup___::41df00246716159d06afd2d3ea430423"
+    },
+    {
+      "key": "openaire/02f143012ab4cbdc44d9",
+      "title": "Implementing Hardware Decision Tree Prediction: A Scalable Approach",
+      "authors": [
+        "Barbareschi M."
+      ],
+      "year": 2016,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/waina.2016.171",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::36e437f57bd8fe319a7f6d63a36244d3",
+      "openaire_id": "doi_dedup___::36e437f57bd8fe319a7f6d63a36244d3"
+    },
+    {
+      "key": "openaire/7bd8aec10150ec1f9ab5",
+      "title": "Partial FPGA bitstream encryption enabling hardware DRM in mobile environments",
+      "authors": [
+        "MARIO BARBARESCHI",
+        "Alessandro CILARDO",
+        "ANTONINO MAZZEO"
+      ],
+      "year": 2016,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1145/2903150.2911711",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::aa491217899d92491d682aedc21a864b",
+      "openaire_id": "doi_dedup___::aa491217899d92491d682aedc21a864b"
+    },
+    {
+      "key": "openaire/ead6ab09656f6cd38434",
+      "title": "Ring oscillators analysis for security purposes in Spartan-6 FPGAs",
+      "authors": [
+        "Mario Barbareschi",
+        "Giorgio Di Natale",
+        "Florent Bruguier",
+        "Pascal Benoit",
+        "Lionel Torres"
+      ],
+      "year": 2016,
+      "type": "Other",
+      "venue": "Microprocessors and Microsystems",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1016/j.micpro.2016.06.005",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::edfd7b30d958c223339242216e4928e0",
+      "openaire_id": "doi_dedup___::edfd7b30d958c223339242216e4928e0"
+    },
+    {
+      "key": "openaire/a169d873ba2dfea011af",
+      "title": "STT-MRAM-Based PUF Architecture Exploiting Magnetic Tunnel Junction Fabrication-Induced Variability",
+      "authors": [
+        "Elena Ioana Vatajelu",
+        "Giorgio Di Natale",
+        "Mario Barbareschi",
+        "Lionel Torres",
+        "Marco Indaco",
+        "Paolo Prinetto"
+      ],
+      "year": 2016,
+      "type": "Other",
+      "venue": "ACM Journal on Emerging Technologies in Computing Systems",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1145/2790302",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::8ae79ad42d2ff42969ad5261d8097c30",
+      "openaire_id": "doi_dedup___::8ae79ad42d2ff42969ad5261d8097c30"
+    },
+    {
+      "key": "openaire/b391022e033fe4570350",
+      "title": "XbarGen: A memristor based boolean logic synthesis tool",
+      "authors": [
+        "Marcello Traiola",
+        "Mario Barbareschi",
+        "Antonino Mazzeo",
+        "Alberto Bosio"
+      ],
+      "year": 2016,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/vlsi-soc.2016.7753567",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::3c3c834166ad1966472cc7859eb3feb9",
+      "openaire_id": "doi_dedup___::3c3c834166ad1966472cc7859eb3feb9"
+    },
+    {
+      "key": "openaire/ed41737be72379f39758",
+      "title": "A Cloud Based Architecture for Massive Sensor Data Analysis in Health Monitoring Systems",
+      "authors": [
+        "Barbareschi M",
+        "Romano S",
+        "Mazzeo A"
+      ],
+      "year": 2015,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/3pgcic.2015.114",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::dfa775109d7b24d4e8a1b4d0c011d126",
+      "openaire_id": "doi_dedup___::dfa775109d7b24d4e8a1b4d0c011d126"
+    },
+    {
+      "key": "openaire/13fdfcc2ef229da692de",
+      "title": "Authenticating IoT Devices with Physically Unclonable Functions Models",
+      "authors": [
+        "Barbareschi M.",
+        "Bagnasco P.",
+        "Mazzeo A."
+      ],
+      "year": 2015,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/3pgcic.2015.117",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::7a9cb4625068912969da3dff94879518",
+      "openaire_id": "doi_dedup___::7a9cb4625068912969da3dff94879518"
+    },
+    {
+      "key": "openaire/a365cfcd83993914188f",
+      "title": "Decision Tree-Based Multiple Classifier Systems: An FPGA Perspective",
+      "authors": [
+        "Mario Barbareschi",
+        "Salvatore Del Prete",
+        "Francesco Gargiulo 0001",
+        "Antonino Mazzeo",
+        "Carlo Sansone"
+      ],
+      "year": 2015,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-319-20248-8_17",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::9958a7ae43e4d4b7746bcbe22c80de64",
+      "openaire_id": "doi_dedup___::9958a7ae43e4d4b7746bcbe22c80de64"
+    },
+    {
+      "key": "openaire/4ec8e5c26e17af4ce2e9",
+      "title": "Digital Right Management for IP Protection",
+      "authors": [
+        "Jerome Rampon",
+        "Renaud Perillat",
+        "Lionel Torres",
+        "Pascal Benoit",
+        "Giorgio Di Natale",
+        "Mario Barbareschi"
+      ],
+      "year": 2015,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/isvlsi.2015.127",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::07b207d166d3948270cb2dd185d02c78",
+      "openaire_id": "doi_dedup___::07b207d166d3948270cb2dd185d02c78"
+    },
+    {
+      "key": "openaire/76a60ae057f9df7f4b19",
+      "title": "Malicious traffic analysis on mobile devices: a hardware solution",
+      "authors": [
+        "Mario Barbareschi",
+        "Antonino Mazzeo",
+        "Antonino Vespoli"
+      ],
+      "year": 2015,
+      "type": "Other",
+      "venue": "International Journal of Big Data Intelligence",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1504/ijbdi.2015.069093",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::dec4bb2d0633d116c222d726ab1ff544",
+      "openaire_id": "doi_dedup___::dec4bb2d0633d116c222d726ab1ff544"
+    },
+    {
+      "key": "openaire/ecbd6306e3eebc164c36",
+      "title": "Providing mobile traffic analysis as-a-Service: Design of a service-based infrastructure to offer high-accuracy traffic classifiers based on hardware accelerators",
+      "authors": [
+        "Barbareschi M.",
+        "De Benedictis A.",
+        "Mazzeo A.",
+        "Vespoli A."
+      ],
+      "year": 2015,
+      "type": "Other",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": null,
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=dedup_wf_002::89550298096ac1b5dafbaae428e91352",
+      "openaire_id": "dedup_wf_002::89550298096ac1b5dafbaae428e91352"
+    },
+    {
+      "key": "openaire/00a6ffa5a6a213255a52",
+      "title": "Ring Oscillators Analysis for FPGA Security Purposes",
+      "authors": [
+        "Mario Barbareschi",
+        "Giorgio Di Natale",
+        "Florent Bruguier",
+        "Pascal Benoit",
+        "Lionel Torres"
+      ],
+      "year": 2015,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": null,
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=a9ac50f576aa::49e3afba444cd4318b477e7d4539cc04",
+      "openaire_id": "a9ac50f576aa::49e3afba444cd4318b477e7d4539cc04"
+    },
+    {
+      "key": "openaire/62679475a34c71dcad3f",
+      "title": "Supply voltage variation impact on Anderson PUF quality",
+      "authors": [
+        "Barbareschi M.",
+        "Bagnasco P.",
+        "Mazzeo A."
+      ],
+      "year": 2015,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/dtis.2015.7127361",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::e6aacfefe4a012461019da090c83f8f5",
+      "openaire_id": "doi_dedup___::e6aacfefe4a012461019da090c83f8f5"
+    },
+    {
+      "key": "openaire/b17d3208eea1b699778c",
+      "title": "Testing 90 nm microcontroller SRAM PUF quality",
+      "authors": [
+        "MARIO BARBARESCHI",
+        "ERMANNO BATTISTA",
+        "ANTONINO MAZZEO",
+        "NICOLA MAZZOCCA"
+      ],
+      "year": 2015,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/dtis.2015.7127360",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::66f82653433784be7f83fa9584cadb41",
+      "openaire_id": "doi_dedup___::66f82653433784be7f83fa9584cadb41"
+    },
+    {
+      "key": "openaire/83eca30b5655e4c81478",
+      "title": "A hardware accelerator for data classification within the sensing infrastructure",
+      "authors": [
+        "MARIO BARBARESCHI",
+        "ERMANNO BATTISTA",
+        "NICOLA MAZZOCCA",
+        "Sridhar Venkatesan"
+      ],
+      "year": 2014,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/iri.2014.7051917",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::634eedf5593bad568b426757e52ecd70",
+      "openaire_id": "doi_dedup___::634eedf5593bad568b426757e52ecd70"
+    },
+    {
+      "key": "openaire/6740eb7b12bf5d806b06",
+      "title": "Advancing WSN physical security adopting TPM-based architectures",
+      "authors": [
+        "Mario Barbareschi",
+        "Ermanno Battista",
+        "Antonino Mazzeo",
+        "Sridhar Venkatesan"
+      ],
+      "year": 2014,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/iri.2014.7051916",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::fb3cfd40a2d74579a3a02809aeee9a7f",
+      "openaire_id": "doi_dedup___::fb3cfd40a2d74579a3a02809aeee9a7f"
+    },
+    {
+      "key": "openaire/953c2fcf9e110c7daec3",
+      "title": "An electronic laboratory on smartphones for devices with microcontroller",
+      "authors": [
+        "Barbareschi M.",
+        "Mazzeo A.",
+        "Vespoli A."
+      ],
+      "year": 2014,
+      "type": "Other",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": null,
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=dedup_wf_002::b75517fe9606bad8f98f14b9dc1b209c",
+      "openaire_id": "dedup_wf_002::b75517fe9606bad8f98f14b9dc1b209c"
+    },
+    {
+      "key": "openaire/6c7351f74c17000f89d4",
+      "title": "An FPGA-Based Smart Classifier for Decision Support Systems",
+      "authors": [
+        "Flora Amato",
+        "Mario Barbareschi",
+        "Valentina Casola",
+        "Antonino Mazzeo"
+      ],
+      "year": 2014,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-319-01571-2_34",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::2ea4a1a67b8946a80aa7fab4ed7ab5ca",
+      "openaire_id": "doi_dedup___::2ea4a1a67b8946a80aa7fab4ed7ab5ca"
+    },
+    {
+      "key": "openaire/5977544c6bf194bbd33e",
+      "title": "Mobile Traffic Analysis Exploiting a Cloud Infrastructure and Hardware Accelerators",
+      "authors": [
+        "Mario Barbareschi",
+        "Alessandra De Benedictis",
+        "Antonino Mazzeo",
+        "Antonino Vespoli"
+      ],
+      "year": 2014,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/3pgcic.2014.86",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::77a22a40b694f902dbde6d3f30052952",
+      "openaire_id": "doi_dedup___::77a22a40b694f902dbde6d3f30052952"
+    },
+    {
+      "key": "openaire/f01d22f2cecc2e1243a4",
+      "title": "Secure distribution infrastructure for hardware digital contents",
+      "authors": [
+        "Alessandro CILARDO",
+        "MARIO BARBARESCHI",
+        "ANTONINO MAZZEO"
+      ],
+      "year": 2014,
+      "type": "Other",
+      "venue": "IET Computers & Digital Techniques",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1049/iet-cdt.2014.0036",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::1268600c421e5ecf77bf6f8e5b919de5",
+      "openaire_id": "doi_dedup___::1268600c421e5ecf77bf6f8e5b919de5"
+    },
+    {
+      "key": "openaire/881c478525ce4d134397",
+      "title": "Securing Embedded Digital Systems For In-Field Applications",
+      "authors": [
+        "Mario Barbareschi"
+      ],
+      "year": 2014,
+      "type": "Other",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.6092/unina/fedoa/10320",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::4d1f842c7cb46b8ec225623b99f5fd60",
+      "openaire_id": "doi_dedup___::4d1f842c7cb46b8ec225623b99f5fd60"
+    },
+    {
+      "key": "openaire/083c36b511660f4d3d49",
+      "title": "Network Traffic Analysis Using Android on a Hybrid Computing Architecture",
+      "authors": [
+        "Mario Barbareschi",
+        "Antonino Mazzeo",
+        "Antonino Vespoli"
+      ],
+      "year": 2013,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-319-03889-6_16",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::85c6b68e97f10a24855c42931533d0e1",
+      "openaire_id": "doi_dedup___::85c6b68e97f10a24855c42931533d0e1"
+    },
+    {
+      "key": "openaire/436cc84c5172c4b97dbc",
+      "title": "On the Adoption of FPGA for Protecting Cyber Physical Infrastructures",
+      "authors": [
+        "Mario Barbareschi",
+        "Ermanno Battista",
+        "Valentina Casola",
+        "Antonino Mazzeo",
+        "Nicola Mazzocca"
+      ],
+      "year": 2013,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/3pgcic.2013.72",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::2b46c2688963091e8980a0e045e9cae5",
+      "openaire_id": "doi_dedup___::2b46c2688963091e8980a0e045e9cae5"
+    },
+    {
+      "key": "openaire/be6c5af7ede95ac4d7a5",
+      "title": "Towards Automatic Generation of Hardware Classifiers",
+      "authors": [
+        "Flora Amato",
+        "Mario Barbareschi",
+        "Valentina Casola",
+        "Antonino Mazzeo",
+        "Sara Romano"
+      ],
+      "year": 2013,
+      "type": "Conference",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1007/978-3-319-03889-6_14",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::61dd63e18c9e21f5ec04b8c4e7da0003",
+      "openaire_id": "doi_dedup___::61dd63e18c9e21f5ec04b8c4e7da0003"
     }
-  ]
+  ],
+  "orcid": "0000-0002-1417-6328"
 }

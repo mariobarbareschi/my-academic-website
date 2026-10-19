@@ -21,7 +21,7 @@
    const y=document.createElement('div');y.className='paper-year';y.textContent=String(p.year||'');
    const content=document.createElement('div');content.className='paper-content';
    const h=document.createElement('h3');
-   const record=external(p.dblp_url)?p.dblp_url:'https://dblp.org/pid/134/1019.html';
+   const record=[p.dblp_url,p.doi_url,p.openaire_url,p.openalex_url].find(external)||'https://dblp.org/pid/134/1019.html';
    h.append(makeLink(String(p.title||'Untitled'),record));
    const authors=document.createElement('p');authors.className='paper-authors';authors.textContent=(p.authors||[]).join(', ');
    const venue=document.createElement('p');venue.className='paper-venue';
@@ -31,7 +31,7 @@
    if(external(p.doi_url))links.append(makeLink('DOI ↗',p.doi_url));
    if(external(p.pdf_url) && p.pdf_url!==p.doi_url)links.append(makeLink('Full text ↗',p.pdf_url));
    // DBLP publishes BibTeX for each publication record; no client-side API required.
-   if(p.key && /^[A-Za-z0-9._/:-]+$/.test(p.key)) links.append(makeLink('BibTeX ↗','https://dblp.org/rec/'+p.key+'.bib'));
+   if(external(p.dblp_url) && p.key && !p.key.startsWith('openaire/') && !p.key.startsWith('openalex/') && /^[A-Za-z0-9._/:-]+$/.test(p.key)) links.append(makeLink('BibTeX ↗','https://dblp.org/rec/'+p.key+'.bib'));
    content.append(h,authors,venue,links);item.append(y,content);return item;
  }
  const normalize=s=>(s||'').toString().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
@@ -62,7 +62,7 @@
    }
    note.textContent=source.bootstrap_only
       ? 'Initial sample bibliography. Run the GitHub Action “Update bibliography and deploy” to import the complete DBLP record.'
-      : 'Source: dblp computer science bibliography. Last synchronized: '+(source.last_synced_utc||'not available')+' (UTC).';
+      : (source.source==='openaire+cached-dblp'?'Source: OpenAIRE (ORCID and author-name search), preserving previously catalogued DBLP records.':source.source==='openalex+cached-dblp'?'Sources: OpenAlex and previously catalogued DBLP records.':'Source: DBLP computer science bibliography.')+' Last synchronized: '+(source.last_synced_utc||'not available')+' (UTC).';
    update();
  }).catch(err=>{
    status.textContent='The local bibliography could not be loaded.';
