@@ -27,7 +27,7 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - name: Validate bibliography import
+      - name: Validate bibliography and SFTP deployment
         run: python3 -m unittest discover -s tests -v
       - name: Refresh publications from OpenAIRE
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
@@ -44,19 +44,16 @@ jobs:
           else
             echo 'No bibliography changes.'
           fi
-      # OFF by default. Enable only after FTP credentials and test directory are set.
-      # DEPLOY_DRY_RUN should stay true until you have inspected the action logs.
-      - name: Deploy public site via FTPS (opt-in)
+      # SFTP only (port 22), with pinned SSH host keys; no plaintext FTP fallback.
+      # Must opt in explicitly using repository variable DEPLOY_ENABLED=true.
+      - name: Install SFTP client
         if: vars.DEPLOY_ENABLED == 'true'
-        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ${{ secrets.FTP_SERVER_DIR }}
-          local-dir: ./site/
-          protocol: ${{ vars.FTP_PROTOCOL || 'ftps' }}
-          port: ${{ vars.FTP_PORT || '21' }}
-          security: strict
-          dry-run: ${{ vars.DEPLOY_DRY_RUN != 'false' }}
-          dangerous-clean-slate: false
+        run: python3 -m pip install 'paramiko>=3.5,<5'
+      - name: Deploy site via SFTP (opt-in; dry-run by default)
+        if: vars.DEPLOY_ENABLED == 'true'
+        env:
+          SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
+          SFTP_KNOWN_HOSTS: ${{ secrets.SFTP_KNOWN_HOSTS }}
+          SFTP_REMOTE_DIR: ${{ vars.SFTP_REMOTE_DIR || '/home/mario.barbareschi/_academic-preview/' }}
+          DEPLOY_DRY_RUN: ${{ vars.DEPLOY_DRY_RUN || 'true' }}
+        run: python3 scripts/deploy_sftp.py
