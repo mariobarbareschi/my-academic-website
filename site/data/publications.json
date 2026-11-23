@@ -1,7 +1,7 @@
 {
   "source": "openaire+cached-dblp",
   "author_pid": "134/1019",
-  "last_synced_utc": "2026-11-02T12:27:17+00:00",
+  "last_synced_utc": "2026-11-23T14:42:15+00:00",
   "bootstrap_only": false,
   "publications": [
     {
@@ -39,6 +39,22 @@
       "pdf_url": null,
       "openaire_url": "https://explore.openaire.eu/search/result?id=doi_________::0d73b9bec750d53ca95821d2ff49554b",
       "openaire_id": "doi_________::0d73b9bec750d53ca95821d2ff49554b"
+    },
+    {
+      "key": "openaire/633006686ed75c8ea8d8",
+      "title": "Advancing Decision Tree-Based Online Inference for Edge Computing",
+      "authors": [
+        "Lorenzo Abate",
+        "Mario Barbareschi"
+      ],
+      "year": 2026,
+      "type": "Other",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1109/icsa-c68850.2026.00053",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_________::c21f45af72c65d7545c36cf1a1856f27",
+      "openaire_id": "doi_________::c21f45af72c65d7545c36cf1a1856f27"
     },
     {
       "key": "journals/tetc/BarbareschiCE26",
@@ -108,6 +124,23 @@
       "pdf_url": null,
       "openaire_url": "https://explore.openaire.eu/search/result?id=doi_dedup___::ab1da86255681c1eda286eecd24dfdb9",
       "openaire_id": "doi_dedup___::ab1da86255681c1eda286eecd24dfdb9"
+    },
+    {
+      "key": "openaire/6a6c6086b1021f965f73",
+      "title": "Improving Classifier Latency at the Edge through ARM Helium",
+      "authors": [
+        "Lorenzo Abate",
+        "Mario Barbareschi",
+        "Antonio Emmanuele"
+      ],
+      "year": 2026,
+      "type": "Other",
+      "venue": "",
+      "dblp_url": null,
+      "doi_url": "https://doi.org/10.1201/9788743815211-7",
+      "pdf_url": null,
+      "openaire_url": "https://explore.openaire.eu/search/result?id=doi_________::5493bd1e86647b9bb5663241e87b9624",
+      "openaire_id": "doi_________::5493bd1e86647b9bb5663241e87b9624"
     },
     {
       "key": "journals/iotj/AbateBE26",
